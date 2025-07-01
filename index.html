@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Livraria IFSP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/livro_icon.png">
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Livraria - IFSP</h1>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#prod">Produtos</a></li>
+            <li><a href="#vis">Visite Nossas Lojas</a></li>
+            <li><a href="#men">Mensagem</a></li>
+            <li class="fcon"><a href="#fcon">Fale Conosco</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+        <a onclick="topFunction()" id="topBtn" title="Voltar ao topo"><img src="/imagens/Group 33 (1).svg" alt=""></a>
+        <section>
+            <h2 id="titulo_apresentacao">Nossa História, Missão e Valores</h2>
+            <div id="hist" class="apresentacoes">
+
+
+                <div class="apresentacao" id="historia">
+                    <h3>Nossa História</h3>
+
+                    <p>Fundada em 1985, em Guarulhos por quatro amigos e colegas de estudos na escola técnica, a
+                        livraria
+                        logo
+                        cresceu e no ano seguinte as lojas do Rio de Janeiro e São Paulo foram abertas.</p>
+                </div>
+                <div class="apresentacao" id="missao">
+                    <h3>Missão</h3>
+
+                    <p>Nosso maior objetivo é divulgar o conhecimento e divertir através dos livros que vendemos.</p>
+                </div>
+                <div class="apresentacao" id="valores">
+                    <h3>Valores</h3>
+
+                    <p>Amor ao conhecimento, lealdade a todos e preço justo são os nossos príncipios.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="prod">Produtos</h2>
+
+            <div class="imagens_produtos">
+                <img src="imagens/livro01.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro02.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro03.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro04.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro05.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro06.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro07.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro08.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro09.jpg" alt="Livro" class="galeria">
+                <img src="imagens/livro10.jpg" alt="Livro" class="galeria">
+
+            </div>
+        </section>
+        <section>
+            <h2 id="vis">Visite nossas lojas</h2>
+
+            <div class="lojas">
+                <div class="item_visite" id="loja1">
+
+                    <img src="imagens/loja_sp.jpg" alt="São Paulo">
+                    <h3>Rua linda, 763 - Tucuruvi / São Paulo</h3>
+                    <h4>07:00h às 22:00h</h4>
+
+
+                </div>
+
+
+                <div class="item_visite" id="loja2">
+
+                    <img src="imagens/loja_rio.jpg" alt="Rio de Janeiro">
+                    <h3>Rua do Rio, 559 - Copacabana / Rio de Janeiro</h3>
+                    <h4>07:00h às 22:00h</h4>
+
+
+                </div>
+
+
+                <div class="item_visite" id="loja3">
+
+                    <img src="imagens/loja_gru.png" alt="Santos">
+                    <h3>Av. Salgado Filho, 3501 - Centro / Guarulhos</h3>
+                    <h4>08:00h às 21:00h</h4>
+
+
+                </div>
+
+            </div>
+        </section>
+        <h2 id="men">Mensagem para autores
+        </h2>
+
+        <div class="mensagem">
+
+            <div class="quadro_animado"></div>
+
+            <div class="texto_animado">
+                <a href="https://wa.me/11912345678" target="_blank">
+                    Você é um autor independente e deseja vender o seu livro nas nossas lojas? Contate-nos clicando
+                    aqui!
+                </a>
+            </div>
+
+        </div>
+
+
+
+        <h2 id="fcon">Gostou de algum livro? Preencha o formulario e entre em contato conosco</h2>
+
+        <form method="get">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Nome e Sobrenome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="contato" id="whatsApp" maxlength="11" placeholder="Digite o numero com o DDD">
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="Mensagem" id="mensagem"></textarea>
+
+            <input type="submit" class="botao" value="Enviar mensagem">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <div class="col-a">
+            <a href="https://maps.app.goo.gl/E46oyzNsW7AkyXWf8" target="_blank">
+                <img src="/imagens/map-pin.svg" alt="Logo mapa" width="24" height="24">
+                <p>Endereço Matriz: Av. Salgado Filho, 3501 - Centro / Guarulhos</p>
+            </a>
+            <a href="https://wa.me/11912345678" target="_blank">
+                <img src="/imagens/whatsapp.svg" alt="Logo WhatsApp" width="24" height="24">
+                <p>Numero para contato: 11912345678</p>
+            </a>
+            <a href="mailto:">
+                <img src="imagens/mail.svg" alt="Logo e-mail" width="24" height="24">
+                <p>E-mail para Contato: aaaa@aluno.ifsp.edu.br</p>
+            </a>
+
+        </div>
+        <div class="col-b">
+            <ul class="social-links">
+                <li>
+                    <a target="_blank" href="https://instagram.com/">
+                        <img src="/imagens/instagram 1.svg" alt="Logo instagram" height="24" width="24">
+                        instagram
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://facebook.com/">
+                        <img src="imagens/facebook 1.svg" alt="Logo Facebook" height="24" width="24">
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://youtube.com/">
+                        <img src="/imagens/youtube 1.svg" alt="Logo Youtube" height="24" width="24">
+                        Youtube
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
