@@ -270,22 +270,22 @@ img,
 
 @keyframes muda_imagem {
   0% {
-    background-image: url("../imagens/livros_ind01.png");
+    background-image: url("imagens/livros_ind01.png");
   }
   20% {
-    background-image: url("../imagens/livros_ind02.jpg");
+    background-image: url("imagens/livros_ind02.jpg");
   }
   40% {
-    background-image: url("../imagens/livros_ind03.jpg");
+    background-image: url("imagens/livros_ind03.jpg");
   }
   60% {
-    background-image: url("../imagens/livros_ind04.jpg");
+    background-image: url("imagens/livros_ind04.jpg");
   }
   80% {
-    background-image: url("../imagens/livros_ind05.jpg");
+    background-image: url("imagens/livros_ind05.jpg");
   }
   100% {
-    background-image: url("../imagens/livros_ind01.png");
+    background-image: url("imagens/livros_ind01.png");
   }
 }
 
