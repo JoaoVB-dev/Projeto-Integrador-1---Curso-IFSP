@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Livraria IFSP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/livro_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="navbar">
+            <img src="/imagens/Logo Livraria.png" alt="" class="logo" width="24" height="24">
+            <ul id="nav_list">
+                <li class="nav-item active "><a href="#top">Home</a></li>
+                <li class="nav-item"><a href="#prod">Produtos</a></li>
+                <li class="nav-item"><a href="#vis">Visite Nossas Lojas</a></li>
+                <li class="nav-item"><a href="#men">Mensagem</a></li>
+                <li class="nav-item"><a href="#fcon">Fale Conosco</a></li>
+            </ul>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#top">Home</a></li>
+                <li class="nav-item"><a href="#prod">Produtos</a></li>
+                <li class="nav-item"><a href="#vis">Visite Nossas Lojas</a></li>
+                <li class="nav-item"><a href="#men">Mensagem</a></li>
+                <li class="nav-item"><a href="#fcon">Fale Conosco</a></li>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">Nossa História, Missão e Valores</h1>
+            </div>
+            <div id="hist" class="apresentacoes">
+                <div class="apresentacao" id="historia">
+                    <h2>Nossa História</h2>
+
+                    <p>Fundada em 1985, em Guarulhos por quatro amigos e colegas de estudos na escola técnica, a
+                        livraria
+                        logo
+                        cresceu e no ano seguinte as lojas do Rio de Janeiro e São Paulo foram abertas.</p>
+                </div>
+                <div class="apresentacao" id="missao">
+                    <h2>Missão</h2>
+
+                    <p>Nosso maior objetivo é divulgar o conhecimento e divertir através dos livros que vendemos.</p>
+                </div>
+                <div class="apresentacao" id="valores">
+                    <h2>Valores</h2>
+
+                    <p>Amor ao conhecimento, lealdade a todos e preço justo são os nossos príncipios.</p>
+                </div>
+            </div>
+        </section>
+        <section id="prod">
+            <h2 id="prod-title">Produtos</h2>
+            <div id="galeria-produtos">
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_PQ80_.jpg"
+                        alt="Pai Rico, Pai Pobre" class="image-prod">
+                    <h3 class="titulo-livros">Pai Rico, pai Pobre</h3>
+                    <span class="descricao">A escola prepara as crianças para o mundo real? Essa é a primeira pergunta
+                        com a qual o leitor se depara neste livro. O recado é ousado e direto: boa formação e notas
+                        altas não bastam para assegurar o sucesso de alguém. O mundo mudou; a maioria dos jovens tem
+                        cartão de crédito, antes mesmo de concluir os estudos, e nunca teve aula sobre dinheiro,
+                        investimentos, juros etc.
+                        Ou seja, eles vão para a escola, mas continuam financeiramente improficientes, despreparados
+                        para enfrentar um mundo que valoriza mais as despesas do que a poupança.
+                        </span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg" alt="Pai Rico, Pai Pobre"
+                        class="image-prod">
+                    <h3 class="titulo-livros">1984 - George Orwell</h3>
+                    <span class="descricao">Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances
+                        mais influentes do século XX, um inquestionável clássico moderno. Lançada poucos meses antes da
+                        morte do autor, é uma obra magistral que ainda se impõe como uma poderosa reflexão ficcional
+                        sobre a essência nefasta de qualquer forma de poder totalitário.</span>
+                    <h4 class="preco">R$21,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_PQ80_.jpg"
+                        alt="Pai Rico, Pai Pobre" class="image-prod">
+                    <h3 class="titulo-livros">Pai Rico, pai Pobre</h3>
+                    <span class="descricao">Edição de 20 Anos Atualizada e Ampliada</span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_PQ80_.jpg"
+                        alt="Pai Rico, Pai Pobre" class="image-prod">
+                    <h3 class="titulo-livros">Pai Rico, pai Pobre</h3>
+                    <span class="descricao">Edição de 20 Anos Atualizada e Ampliada</span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_PQ80_.jpg"
+                        alt="Pai Rico, Pai Pobre" class="image-prod">
+                    <h3 class="titulo-livros">Pai Rico, pai Pobre</h3>
+                    <span class="descricao">Edição de 20 Anos Atualizada e Ampliada</span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_PQ80_.jpg"
+                        alt="Pai Rico, Pai Pobre" class="image-prod">
+                    <h3 class="titulo-livros">Pai Rico, pai Pobre</h3>
+                    <span class="descricao">Edição de 20 Anos Atualizada e Ampliada</span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+                <div class="galeria">
+                    <img src="https://m.media-amazon.com/images/I/81Rr0awAmwL._SY342_.jpg" alt="O Hobbit"
+                        class="image-prod">
+                    <h3 class="titulo-livros">O Hobbit</h3>
+                    <span class="descricao">Os hobbits são seres muito pequenos, menores do que os anões. São de boa
+                        paz, sua única ambição é uma boa terra lavrada e só gostam de lidar com ferramentas manuais.
+                        Este livro tem como personagem central o hobbit Bilbo Bolseiro. Ele vive muito tranquilo até que
+                        o mago Gandalf e uma companhia de anões o levam numa expedição para resgatar um tesouro guardado
+                        por Smaug, um dragão enorme e perigoso.</span>
+                    <h4 class="preco">R$50,00</h4>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section id="vis">
+            <h2 class="vis-title">Visite nossas lojas</h2>
+
+            <div class="lojas">
+                <div class="item-visite" id="loja1">
+
+                    <img src="imagens/loja_sp.jpg" alt="São Paulo">
+                    <h3>Rua linda, 763 - Tucuruvi / São Paulo</h3>
+                    <h4>07:00h às 22:00h</h4>
+
+
+                </div>
+
+
+                <div class="item-visite" id="loja2">
+
+                    <img src="imagens/loja_rio.jpg" alt="Rio de Janeiro">
+                    <h3>Rua do Rio, 559 - Copacabana / Rio de Janeiro</h3>
+                    <h4>07:00h às 22:00h</h4>
+
+
+                </div>
+
+
+                <div class="item-visite" id="loja3">
+
+                    <img src="imagens/loja_gru.png" alt="Guarulhos">
+                    <h3>Av. Salgado Filho, 3501 - Centro / Guarulhos</h3>
+                    <h4>08:00h às 21:00h</h4>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section id="men">
+            <h2 class="men-title">Mensagem para autores
+            </h2>
+
+            <div class="mensagem">
+
+                <div class="quadro_animado">
+                </div>
+
+                <div class="texto_animado">
+                    <a href="https://wa.me/11912345678" target="_blank">
+                        Você é um autor independente e deseja vender o seu livro nas nossas lojas? Contate-nos clicando
+                        aqui!
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="fcon">
+            <h2 class="fcon-title">Gostou de algum livro? Preencha o formulario e entre em contato conosco</h2>
+
+            <form action="enviar.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required placeholder="Nome e Sobrenome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" name="contato" id="whatsApp" maxlength="11" placeholder="Digite o numero com o DDD">
+                <select id="livro" name="livro" required>
+                    <option value="" disabled selected>Selecione o livro que tem interesse</option>
+                    <option value="Pai Rico, Pai Pobre">Pai Rico, Pai Pobre</option>
+                    <option value="1984 - George Orwell">1984 - George Orwell</option>
+                    <option value="O Pequeno Príncipe">O Pequeno Príncipe</option>
+                    <option value="A Revolução dos Bichos">A Revolução dos Bichos</option>
+                    <option value="Harry Potter e a Pedra Filosofal">Harry Potter e a Pedra Filosofal</option>
+                    <option value="O Hobbit">O Hobbit</option>
+                </select>
+                <label for="Mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="mensagem"></textarea>
+
+                <input type="submit" class="botao" value="Enviar mensagem">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="col-a">
+            <a href="https://maps.app.goo.gl/E46oyzNsW7AkyXWf8" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 2.00002C9.87827 2.00002 7.84344 2.84287 6.34315 4.34316C4.84285 5.84345 4 7.87828 4 10C4 13.0981 6.01574 16.1043 8.22595 18.4373C9.31061 19.5822 10.3987 20.5195 11.2167 21.1709C11.5211 21.4133 11.787 21.6152 12 21.7726C12.213 21.6152 12.4789 21.4133 12.7833 21.1709C13.6013 20.5195 14.6894 19.5822 15.774 18.4373C17.9843 16.1043 20 13.0981 20 10C20 7.87828 19.1571 5.84345 17.6569 4.34316C16.1566 2.84287 14.1217 2.00002 12 2.00002ZM12 23C11.4453 23.8321 11.445 23.8319 11.4448 23.8317L11.4419 23.8298L11.4352 23.8253L11.4123 23.8098C11.3928 23.7966 11.3651 23.7776 11.3296 23.753C11.2585 23.7038 11.1565 23.6321 11.0278 23.5392C10.7705 23.3534 10.4064 23.0822 9.97082 22.7354C9.10133 22.043 7.93939 21.0428 6.77405 19.8128C4.48426 17.3958 2 13.902 2 10C2 7.34785 3.05357 4.80431 4.92893 2.92895C6.8043 1.05358 9.34784 1.52588e-05 12 1.52588e-05C14.6522 1.52588e-05 17.1957 1.05358 19.0711 2.92895C20.9464 4.80431 22 7.34785 22 10C22 13.902 19.5157 17.3958 17.226 19.8128C16.0606 21.0428 14.8987 22.043 14.0292 22.7354C13.5936 23.0822 13.2295 23.3534 12.9722 23.5392C12.8435 23.6321 12.7415 23.7038 12.6704 23.753C12.6349 23.7776 12.6072 23.7966 12.5877 23.8098L12.5648 23.8253L12.5581 23.8298L12.556 23.8312C12.5557 23.8314 12.5547 23.8321 12 23ZM12 23L12.5547 23.8321C12.2188 24.056 11.7807 24.0556 11.4448 23.8317L12 23Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17 10C17 12.7615 14.7614 15 12 15C9.23858 15 7 12.7615 7 10C7 7.23861 9.23858 5.00003 12 5.00003C14.7614 5.00003 17 7.23861 17 10ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34318 10.3431 7.00003 12 7.00003C13.6569 7.00003 15 8.34318 15 10Z"
+                        fill="white" />
+                </svg>
+                <p>Endereço Matriz: Av. Salgado Filho, 3501 - Centro / Guarulhos</p>
+            </a>
+            <a href="https://wa.me/11912345678" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.6 14.0001C16.4 13.9001 15.1 13.3001 14.9 13.2001C14.7 13.1001 14.5 13.1001 14.3 13.3001C14.1 13.5001 13.7 14.1001 13.5 14.3001C13.4 14.5001 13.2 14.5001 13 14.4001C12.3 14.1001 11.6 13.7001 11 13.2001C10.5 12.7001 10 12.1001 9.6 11.5001C9.5 11.3001 9.6 11.1001 9.7 11.0001C9.8 10.9001 9.9 10.7001 10.1 10.6001C10.2 10.5001 10.3 10.3001 10.3 10.2001C10.4 10.1001 10.4 9.9001 10.3 9.8001C10.2 9.7001 9.7 8.5001 9.5 8.0001C9.4 7.3001 9.2 7.3001 9 7.3001C8.9 7.3001 8.7 7.3001 8.5 7.3001C8.3 7.3001 8 7.5001 7.9 7.6001C7.3 8.2001 7 8.9001 7 9.7001C7.1 10.6001 7.4 11.5001 8 12.3001C9.1 13.9001 10.5 15.2001 12.2 16.0001C12.7 16.2001 13.1 16.4001 13.6 16.5001C14.1 16.7001 14.6 16.7001 15.2 16.6001C15.9 16.5001 16.5 16.0001 16.9 15.4001C17.1 15.0001 17.1 14.6001 17 14.2001C17 14.2001 16.8 14.1001 16.6 14.0001ZM19.1 4.9001C15.2 1.0001 8.9 1.0001 5 4.9001C1.8 8.1001 1.2 13.0001 3.4 16.9001L2 22.0001L7.3 20.6001C8.8 21.4001 10.4 21.8001 12 21.8001C17.5 21.8001 21.9 17.4001 21.9 11.9001C22 9.3001 20.9 6.8001 19.1 4.9001ZM16.4 18.9001C15.1 19.7001 13.6 20.2001 12 20.2001C10.5 20.2001 9.1 19.8001 7.8 19.1001L7.5 18.9001L4.4 19.7001L5.2 16.7001L5 16.4001C2.6 12.4001 3.8 7.4001 7.7 4.9001C11.6 2.4001 16.6 3.7001 19 7.5001C21.4 11.4001 20.3 16.5001 16.4 18.9001Z"
+                        fill="white" />
+                </svg>
+                <p>Numero para contato: 11912345678</p>
+            </a>
+            <a href="mailto:">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4 5.00002C3.45228 5.00002 3 5.4523 3 6.00002V18C3 18.5477 3.45228 19 4 19H20C20.5477 19 21 18.5477 21 18V6.00002C21 5.4523 20.5477 5.00002 20 5.00002H4ZM1 6.00002C1 4.34773 2.34772 3.00002 4 3.00002H20C21.6523 3.00002 23 4.34773 23 6.00002V18C23 19.6523 21.6523 21 20 21H4C2.34772 21 1 19.6523 1 18V6.00002Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1.18073 5.42653C1.49745 4.97408 2.12098 4.86405 2.57343 5.18076L12 11.7793L21.4265 5.18076C21.879 4.86405 22.5025 4.97408 22.8192 5.42653C23.1359 5.87898 23.0259 6.50251 22.5734 6.81923L12.5734 13.8192C12.2291 14.0603 11.7708 14.0603 11.4265 13.8192L1.4265 6.81923C0.974052 6.50251 0.864017 5.87898 1.18073 5.42653Z"
+                        fill="white" />
+                </svg>
+                <p>E-mail para Contato: projetointegrador814@gmail.com
+                </p>
+            </a>
+
+        </div>
+        <button id="open">
+            AVISO, CLIQUE AQUI!!
+        </button>
+
+        <div class="col-b">
+            <ul class="social-links">
+                <li>
+                    <a target="_blank" href="https://instagram.com/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                                stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M17.5 6.5H17.51" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://facebook.com/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                                stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://youtube.com/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
+                                stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9.75 15.02L15.5 11.75L9.75 8.47998V15.02Z" stroke="#FFFAF1" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <h1> Atenção!!!</h1>
+                <p> Esta página é fictícia, criada como parte das exigências para obtenção de nota na unidade curricular
+                    "Projeto Integrador 1" do curso técnico em Desenvolvimento de Sistemas do Instituto Federal de São
+                    Paulo.</p>
+                <button id="close">
+                    Fechar aviso
+                </button>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
