@@ -676,6 +676,7 @@ footer a {
     display: flex;
     border: none;
     background-color: transparent;
+    justify-content: right;
     font-size: 1.5rem;
     cursor: pointer;
   }
